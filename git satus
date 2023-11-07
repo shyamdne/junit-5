@@ -1,0 +1,21 @@
+[1mdiff --git a/src/main/java/annatations/Testo.java b/src/main/java/annatations/Testo.java[m
+[1mindex 31eef37..5fc0de4 100644[m
+[1m--- a/src/main/java/annatations/Testo.java[m
+[1m+++ b/src/main/java/annatations/Testo.java[m
+[36m@@ -18,8 +18,9 @@[m [mpublic int multiply(int a, int b) {[m
+ 	return a*b;[m
+ }[m
+ public int divide(int a, int b) {[m
+[31m-	[m
+[32m+[m	[32mSystem.out.println("divion get error");[m
+ 	return a/b;[m
+[32m+[m[41m	[m
+ }[m
+ [m
+ }[m
+[1mdiff --git a/target/classes/annatations/Testo.class b/target/classes/annatations/Testo.class[m
+[1mindex 69677c8..1882c29 100644[m
+Binary files a/target/classes/annatations/Testo.class and b/target/classes/annatations/Testo.class differ
+[1mdiff --git a/target/test-classes/annatations/TestoTest.class b/target/test-classes/annatations/TestoTest.class[m
+[1mindex 6b48623..84d78d1 100644[m
+Binary files a/target/test-classes/annatations/TestoTest.class and b/target/test-classes/annatations/TestoTest.class differ
